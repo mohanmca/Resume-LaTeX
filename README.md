@@ -1,9 +1,4 @@
-#Resume-Latex
-
-#Credit
-Credit to AwesomeCV which was used as the base of my resume. I heavily modified fonts, spacing and colours.
-
-[**Awesome CV**](https://github.com/posquit0/Awesome-CV) is LaTeX template for a **CV(Curriculum Vitae)** or **resume** or **cover letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
+# Resume-Latex
 
 ## How to Use
 ### Requirements
@@ -21,6 +16,11 @@ This should result in the creation of ``{your-cv}.pdf``
 
 
 ## Credit
+
+### AwesomeCV
+Credit to AwesomeCV which was used as the base of my resume. I heavily modified fonts, spacing and colours.
+[**Awesome CV**](https://github.com/posquit0/Awesome-CV) is LaTeX template for a **CV(Curriculum Vitae)** or **resume** or **cover letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
+
 ### LaTeX
 LaTeX is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
 
