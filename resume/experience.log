@@ -1,29 +1,43 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  14 NOV 2018 13:28
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.5.8)  20 JAN 2020 21:43
  restricted system commands enabled.
 **experience.tex
 (./experience.tex
-LaTeX2e <2018-04-01> patch level 2
-Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
-Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
-llection.(using write cache: /Users/aripauli/Library/texlive/2018/texmf-var/luat
-ex-cache/generic)(using read cache: /usr/local/texlive/2018/texmf-var/luatex-cac
-he/generic /Users/aripauli/Library/texlive/2018/texmf-var/luatex-cache/generic)
-luaotfload | conf : Root cache directory is /Users/aripauli/Library/texlive/2018
-/texmf-var/luatex-cache/generic/names.
-luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
--resolved path “/usr/local/texlive/2018/texmf-dist/tex/luatex/luaotfload/fontl
-oader-2017-02-11.lua”.
-Lua-only attribute luaotfload@state = 1
-Lua-only attribute luaotfload@noligature = 2
-Lua-only attribute luaotfload@syllabe = 3
-luaotfload | init : Context OpenType loader version “3.027”
+LaTeX2e <2018-12-01>
+Lua module: luaotfload-main 2019-02-14 2.96 luaotfload entry point
+Lua module: luaotfload-init 2019-02-14 2.96 luaotfload submodule / initializatio
+n
+Lua module: lualibs 2019-02-14 2.64 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2019-02-14 2.64 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2019-02-14 2.96 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2019-02-14 2.96 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2019-02-14 2.96 luaotfload submodule / conf
+ig file reader
+luaotfload | conf : Root cache directory is /Users/ari/Library/texlive/2019/texm
+f-var/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2019-02-14.lua” from kpse
+-resolved path “/usr/local/texlive/2019/texmf-dist/tex/luatex/luaotfload/fontl
+oader-2019-02-14.lua”.
+Lua-only attribute luaotfload@state = 2
+Lua-only attribute luaotfload@noligature = 3
+Lua-only attribute luaotfload@syllabe = 4
+luaotfload | init : Context OpenType loader version “3.107”
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2019-02-14 2.96 luaotfload submodule / callback h
+andling
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua-only attribute luaotfload_color_attribute = 4
-luaotfload | conf : Root cache directory is /Users/aripauli/Library/texlive/2018
-/texmf-var/luatex-cache/generic/names.
+Lua module: luaotfload-database 2019-02-14 2.96 luaotfload submodule / database
+Lua module: luaotfload-colors 2019-02-14 2.96 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 5
+Lua module: luaotfload-resolvers 2019-02-14 2.96 luaotfload submodule / resolver
+s
+luaotfload | conf : Root cache directory is /Users/ari/Library/texlive/2019/texm
+f-var/luatex-cache/generic/names.
+Lua module: luaotfload-features 2019-02-14 2.96 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2019-02-14 2.96 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2019-02-14 2.96 luaotfload submodule / auxiliar
+y functions
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
 Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
@@ -34,8 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.107 seconds
-Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+luaotfload | main : initialization completed in 0.111 seconds
 ! Undefined control sequence.
 l.1 \cvsection
             {Experience}
@@ -105,7 +118,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.11         \item {
-                  Worked with team of 5-7  developers on checkout flow of Wa...
+                  Acting lead Scala developer of Real-Time Bidding Platform ...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -117,7 +130,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.12         \item {
-                  Created new end-user functionality via Play Framework}
+                  Conducted engineering analysis of all services and compile...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -129,7 +142,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.13         \item {
-                  Implemented fixes for ongoing issues within Play backend s...
+                  Redesigned and implemented all backend microservices using...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -141,19 +154,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.14         \item {
-                  Deployed service into environments using Jenkins, OneOps a...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15         \item {
-                  Created new suite of tests using ScalaTest and assisted in...
+                  Created new suites of tests using ScalaTest, developed Jso...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -164,14 +165,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16       \end{cvitems}
+l.15       \end{cvitems}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.18 \cventry
+l.17 \cventry
            {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -186,7 +187,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25       \begin{cvitems}
+l.24       \begin{cvitems}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -199,8 +200,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+l.25         \item {
+                  Worked with team of 5-7  developers on checkout flow of Wa...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
 l.26         \item {
-                  Developed new Scala based microservice to handle communica...
+                  Created new end-user functionality via Play Framework (Sca...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -212,7 +225,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.27         \item {
-                  Built all functionality using Akka, Akka-HTTP, Scalaz and ...
+                  Developed new features with other third party vendors}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -224,7 +237,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.28         \item {
-                  Integrated a Redis instance to store both temporary user d...
+                  Deployed service into environments using Jenkins, OneOps a...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -236,6 +249,89 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.29         \item {
+                  Created new suite of tests using ScalaTest and assisted in...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{cvitems}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30       \end{cvitems}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.32 \cventry
+           {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment cvitems undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39       \begin{cvitems}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40         \item {
+                  Developed new Scala based microservice to handle communica...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41         \item {
+                  Built all functionality using Akka, Akka-HTTP, Scalaz and ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42         \item {
+                  Integrated a Redis instance to store both temporary user d...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43         \item {
                   Deployed service into production incorporating ScalaTest s...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -247,7 +343,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30         \item {
+l.44         \item {
                   Developed UI for internal ticketing system using React, Re...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -259,7 +355,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31         \item {
+l.45         \item {
                   Created new suite of tests using Jest \& Enzyme}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -271,14 +367,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32       \end{cvitems}
+l.46       \end{cvitems}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.34     \cventry
+l.48     \cventry
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -293,7 +389,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40       \begin{cvitems}
+l.54       \begin{cvitems}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -306,7 +402,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41         \item {
+l.55         \item {
                   Worked with senior staff to design and architect a project...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -318,7 +414,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42        \item {
+l.56        \item {
                  Spearheaded development of a web application using ReactJS ...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -330,7 +426,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43         \item {
+l.57         \item {
                   Integrated Bootstrap, Reflux and Express into an ongoing p...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -342,14 +438,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44       \end{cvitems}
+l.58       \end{cvitems}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.46   \cventry
+l.60   \cventry
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -364,7 +460,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52       \begin{cvitems}
+l.66       \begin{cvitems}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -377,7 +473,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53         \item {
+l.67         \item {
                   Designed and built server-side functionality for a piece o...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -389,7 +485,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54         \item {
+l.68         \item {
                   Implemented new features using Spring Framework, Jersey Fr...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -401,7 +497,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55         \item {
+l.69         \item {
                   Wrote all logic relating to importing, parsing, manipulati...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -413,7 +509,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56         \item {
+l.70         \item {
                   Developed comprehensive list of JUnit tests to ensure prod...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -425,16 +521,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57       \end{cvitems}
+l.71       \end{cvitems}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-luaotfload | db : Font names database loaded from /Users/aripauli/Library/texliv
-e/2018/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /User
-s/aripauli/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman
-10-regular.luc)
+luaotfload | db : Font names database loaded from /Users/ari/Library/texlive/201
+9/texmf-var/luatex-cache/generic/names/luaotfload-names.luc
 
 ! LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
@@ -443,7 +537,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59     \newpage
+l.73     \newpage
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -460,6 +554,336 @@ Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no c (U+0063) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no B (U+0042) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no x (U+0078) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no | (U+007C) in font nullfont!
+Missing character: There is no A (U+0041) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no A (U+0041) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no O (U+004F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no J (U+004A) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no 8 (U+0038) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no C (U+0043) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no A (U+0041) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no R (U+0052) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no B (U+0042) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no R (U+0052) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no B (U+0042) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no C (U+0043) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no R (U+0052) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no F (U+0046) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no C (U+0043) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no J (U+004A) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
 Missing character: There is no C (U+0043) in font nullfont!
 Missing character: There is no h (U+0068) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
@@ -506,7 +930,6 @@ Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no c (U+0063) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
 Missing character: There is no S (U+0053) in font nullfont!
 Missing character: There is no a (U+0061) in font nullfont!
 Missing character: There is no p (U+0070) in font nullfont!
@@ -538,13 +961,14 @@ Missing character: There is no 0 (U+0030) in font nullfont!
 Missing character: There is no 1 (U+0031) in font nullfont!
 Missing character: There is no 8 (U+0038) in font nullfont!
 Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no A (U+0041) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
 Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no 9 (U+0039) in font nullfont!
 Missing character: There is no W (U+0057) in font nullfont!
 Missing character: There is no o (U+006F) in font nullfont!
 Missing character: There is no r (U+0072) in font nullfont!
@@ -647,61 +1071,59 @@ Missing character: There is no w (U+0077) in font nullfont!
 Missing character: There is no o (U+006F) in font nullfont!
 Missing character: There is no r (U+0072) in font nullfont!
 Missing character: There is no k (U+006B) in font nullfont!
-Missing character: There is no I (U+0049) in font nullfont!
-Missing character: There is no m (U+006D) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
 Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no d (U+0064) in font nullfont!
-Missing character: There is no f (U+0066) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no x (U+0078) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
 Missing character: There is no f (U+0066) in font nullfont!
-Missing character: There is no o (U+006F) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no o (U+006F) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no o (U+006F) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
 Missing character: There is no w (U+0077) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no P (U+0050) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
 Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no y (U+0079) in font nullfont!
-Missing character: There is no b (U+0062) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no c (U+0063) in font nullfont!
-Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no v (U+0076) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
 Missing character: There is no D (U+0044) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no p (U+0070) in font nullfont!
@@ -1993,7 +2415,7 @@ Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no y (U+0079) in font nullfont!
 ]
 ! Undefined control sequence.
-l.60   \cventry
+l.74   \cventry
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2008,7 +2430,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61     {R
+l.75     {R
          iverside Software Lab (Cognos TM1)}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2020,14 +2442,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66       \begin{cvitems}
+l.80       \begin{cvitems}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 61--67
+Overfull \hbox (20.0pt too wide) in paragraph at lines 75--81
 []Riverside
  []
 
@@ -2038,7 +2460,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67         \item {
+l.81         \item {
                   Collaborated with team of 20-25 developers on enterprise s...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2050,7 +2472,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68         \item {
+l.82         \item {
                   Implemented new functionality using HTML, CSS and JQuery f...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2062,7 +2484,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69         \item {
+l.83         \item {
                   Developed suite of automated tests that were deployed by i...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2074,7 +2496,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70         \item {
+l.84         \item {
                   Assisted in the discovery and remediation of software bugs}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2086,14 +2508,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71       \end{cvitems}
+l.85       \end{cvitems}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.73   \cventry
+l.87   \cventry
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2108,7 +2530,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79       \begin{cvitems}
+l.93       \begin{cvitems}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2121,7 +2543,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80         \item {
+l.94         \item {
                   Performed data analysis and conducted laboratory experiments}
 
 Try typing  <return>  to proceed.
@@ -2134,7 +2556,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81         \item {
+l.95         \item {
                   Worked closely with senior team members, technology subjec...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2146,7 +2568,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82         \item {
+l.96         \item {
                   Certified new carrier grade router and infrastructure for ...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2158,7 +2580,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83       \end{cvitems}
+l.97       \end{cvitems}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2171,7 +2593,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85 \end{cventries}
+l.99 \end{cventries}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2186,12 +2608,12 @@ or  <return>  to continue without it.
 
 
 Here is how much of LuaTeX's memory you used:
- 14 strings out of 494413
- 100000,89155 words of node,token memory allocated 7203 words of node memory still in use:
-   24 hlist, 1 disc, 8 local_par, 1 dir, 187 glue, 27 penalty, 726 glyph, 52 att
-ribute, 35 glue_spec, 52 attribute_list, 1 temp nodes
-   avail lists: 2:152,3:34,4:32,5:16,6:11,7:1071,8:1,9:40,10:31,11:3
- 4305 multiletter control sequences out of 65536+600000
- 15 fonts using 723239 bytes
+ 14 strings out of 494291
+ 100000,106986 words of node,token memory allocated 7224 words of node memory still in use:
+   24 hlist, 1 disc, 8 local_par, 1 dir, 187 glue, 3 kern, 27 penalty, 727 glyph
+, 53 attribute, 34 glue_spec, 53 attribute_list, 1 temp nodes
+   avail lists: 1:1,2:202,3:46,4:32,5:16,6:15,7:1493,9:53,10:31,11:4
+ 4371 multiletter control sequences out of 65536+600000
+ 15 fonts using 723495 bytes
  18i,4n,11p,166b,134s stack positions out of 5000i,500n,10000p,200000b,100000s
 !  ==> Fatal error occurred, no output PDF file produced!
